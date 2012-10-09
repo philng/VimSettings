@@ -1,0 +1,10 @@
+TODO: This readme needs to describe what is needed to setup everything
+TODO: Is it possible to not need vimrc inside this repo?
+
+NOTES
+- jshint
+- exuberant ctags
+- doctorjs
+- vim 7.0+ with ruby and netbeans
+
+Need to copy vimrc from this repo to ~/.vimrc
