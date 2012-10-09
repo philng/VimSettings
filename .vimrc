@@ -16,6 +16,7 @@ Bundle 'msanders/snipmate.vim'
 Bundle 'majutsushi/tagbar.git'
 Bundle 'wincent/Command-T.git'
 Bundle 'vim-scripts/AutoComplPop.git'
+Bundle 'Rip-Rip/clang_complete'
 " End bundles
 
 filetype plugin indent on
@@ -36,6 +37,12 @@ let g:syntastic_mode_map = { "mode": "active",
          \ "active_filetypes": [],
          \ "passive_filetypes": ['html'] }
 " End syntastic
+
+" Clang Complete Options
+let g:clang_use_library=1
+set completeopt=menu,menuone,longest
+set pumheight=15
+"
 
 " AutoComplPop for eclim
 let g:acp_behaviorJavaEclimLength = 3
