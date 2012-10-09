@@ -14,7 +14,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'msanders/snipmate.vim'
 Bundle 'majutsushi/tagbar.git'
-Bundle 'wincent/Command-T.git'
+Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/AutoComplPop.git'
 Bundle 'Rip-Rip/clang_complete'
 " End bundles
