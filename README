@@ -5,6 +5,28 @@ NOTES
 - jshint
 - exuberant ctags
 - doctorjs
-- vim 7.0+ with ruby and netbeans
+- vim 7.3+ with ruby python and netbeans
 
 Need to copy vimrc from this repo to ~/.vimrc
+
+# Setup Bundle
+git submodule init
+git submodule update
+
+# Installing ctags and jstags
+sudo apt-get install exuberant-ctags
+git clone https://github.com/mozilla/doctorjs.git
+git submodule init
+git submodule update
+
+# Installing clang
+remake vim with enable-pythoninterp (remember to specify version with-python-config-dir=/usr/lib/python2.7/config)
+
+sudo apt-get install libclang-dev
+sudo apt-get install clang
+
+# Is this needed?
+cd ~/.vim/bundle/clang_complete/
+make install
+# Was an issue with vundle/plugins having clang_complete in it too
+
