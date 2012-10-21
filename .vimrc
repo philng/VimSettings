@@ -39,9 +39,11 @@ let g:syntastic_mode_map = { "mode": "active",
 " End syntastic
 
 " Clang Complete Options
-let g:clang_use_library=1
 set completeopt=menu,menuone,longest
 set pumheight=15
+let g:clang_library_path='/usr/lib'
+let g:clang_complete_copen=1
+let g:clang_use_library=1
 "
 
 " AutoComplPop for eclim
